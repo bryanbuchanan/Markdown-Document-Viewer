@@ -1,0 +1,129 @@
+# Comm Net Service Provider Mini-Sites
+
+The following serves as an outline for the construction of several pre-designed mini-sites ("The Project"), defines the scope of work to be performed, and serves as an agreement between Resen ("The Consultant") and Comm Net ("The Client").
+
+---
+
+## 1. Description of Services
+
+The Consultant will take the four finished designs provided by The Client and build them into four finished static websites. Each website contains six pages. The Client will then be responsible for any server-side scripting needed to provide any additional functionality (forms, dynamic content management systems, etc) and for migrating the static website files to their server.
+
+The websites will be built using the latest standards of web design, including HTML5, CSS3, and Javascript where necessary, and will be accessible from all modern web-enabled devices that support modern web standards (IE9, IE8, Safari, Chrome, and Firefox).
+
+They'll be coded in a responsive way that will be able to handle reasonable variations in content without "breaking".
+
+---
+
+## 2. Website Outline
+
+Each mini-site follows the same structure/page architecture and mostly identical content. Only minor differences in content will be needed, specific to each service provider.
+
+### Pages
+- Home
+- Bundles
+- Digital TV
+- Internet
+- Digital Phone
+- Privacy Policy
+
+---
+
+## 3. Material Needed from Client
+
+### 3a. The following items are needed from The Client in order to begin The Project:
+
+- Deposit of at least 50% of the project cost
+- All finished and approved artwork for the websites (PSD format is preferred)
+- All content for each page of every website, if this isn't already included in the PSDs.
+- Signed copy of this document
+
+### 3b. The following items are needed to finish The Project:
+
+- Payment of remaining 50% of the total project cost
+
+---
+
+## 4. Compensation/Payment
+
+The total amount to be paid to The Consultant: **$1,630**
+
+- Payments not paid within 2 weeks of receipt of bill are subject to a 15% late fee, compounded every 2 weeks.
+- Additional work that falls outside the scope of this project will be billed at $80/hr.
+
+---
+
+## 5. Timeline
+
+The finished work should be delivered 30 days from the date The Consultant receives all material listed in section 3a of this document.
+
+---
+
+## 6. Revisions & Client Feedback
+
+If changes are made to the scope of The Project, the turnaround time quoted in void and will need to be reassessed.
+
+---
+
+## 7. Intellectual Property
+
+All material created by The Consultant is intellectual property of The Consultant and is protected by law. Full ownership of visual material including graphics, logos, marks, designs, and website code specifically created for this project will automatically be transferred to The Client upon full payment of services, including any accumulated late fees. 
+
+---
+
+## 8. Termination
+
+Should The Client cancel this project before it is complete and full payment of services is received, The Consultant will be paid for all work already completed as well as a termination fee of 20% the total project cost.
+
+---
+
+## 9. Liability
+
+The Consultant offers no warranty of any kind for products and services sold and cannot be held liable for any damages caused by use or misuse of said products and services.
+
+The Consultant does however agree to correct any product or service that is discovered to have been faulty at the time of project completion.
+
+---
+
+## 10. Non Disclosure
+
+Prices are considered confidential information and cannot be shared with third parties. The Client understands that sharing this information with others outside their organization can be significantly damaging to The Consultant and may be liable for damages.
+
+---
+
+## 11. Changes
+
+If The Client should need any changes made to the website after it's completed during the duration of the site's life, those will be quoted by The Consultant as separate projects and will vary in price and turnaround depending on scope.
+
+---
+
+<page>
+
+The following parties agree to to the terms of this document.
+
+---
+
+The Consultant: Resen Corp.
+
+Sign: ______________________________________
+
+Date: ______________________________________
+
+Print: Bryan Buchanan
+
+Title: President
+
+---
+
+The Client: Comm Net, Inc.
+
+Sign: ______________________________________
+
+Date: ______________________________________
+
+Print: ______________________________________
+
+Title: ______________________________________
+
+--------
+
+Please print, sign, and either fax this document to 424-226-4611 or email to <info@resen.co>.

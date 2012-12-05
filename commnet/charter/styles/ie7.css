@@ -1,0 +1,38 @@
+/* IE7 Exceptions */
+
+
+/* Inline-Block Support
+-------------------------------------------------- */
+
+
+	.summaries > li {
+	
+		float: left;
+		width: 28.8%;
+		height: 250px;
+	
+		}
+		
+	.options > li {
+	
+		float: left;
+		list-style-type: none;
+	
+		}
+		
+		
+/* Alignments
+-------------------------------------------------- */
+		
+		
+	nav li {
+	
+		width: 19%;
+	
+		}
+		
+	.features > li {
+	
+		height: 170px;
+	
+		}

@@ -1,0 +1,37 @@
+/* Style Precedents */
+
+
+	* {
+	
+		margin: 0;
+		padding: 0;
+	
+		}
+		
+	img {
+	
+		border: none;
+	
+		}
+		
+	a {
+	
+		outline: none;
+	
+		}
+		
+		
+/* HTML5 */
+
+
+	section,
+	article,
+	header,
+	footer,
+	nav,
+	aside,
+	hgroup {
+	
+		display: block;
+		
+		}

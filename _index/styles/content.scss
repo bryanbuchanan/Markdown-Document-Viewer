@@ -1,0 +1,504 @@
+/* Resen Documentation */
+
+
+	@import "library";
+
+
+/* Selections
+------------------------------------------------ */
+
+
+	::selection {
+
+		color: #fff;
+		background: rgba(0,0,0,1);
+	
+		}
+	
+	::-moz-selection {
+	
+		color: #fff;
+		background: rgba(0,0,0,1);
+	
+		}
+
+
+/* Type & Headings
+------------------------------------------------ */
+
+
+	body {
+	
+		color: $text_color;
+		font: normal 15px/22px proxima-nova, Helvetica, Arial, sans-serif;
+		text-rendering: optimizeLegibility;
+		
+		}
+		
+	h1, h2, h3, h4, h5 {
+	
+		line-height: 1em;
+		margin: 0 0 $paragraph_space;
+	
+		}
+		
+	h1 {
+	
+		border-bottom: 5px solid #efefef;
+		padding: 10px 0 30px;
+		margin-bottom: $paragraph_space;
+	
+		}
+		
+	h2 {
+
+		clear: left;	
+		font-size: 28px;
+		font-weight: bold;
+		color: $accent_color;
+		text-transform: uppercase;
+		
+		}
+		
+	h3 {
+	
+		font-size: 18px;
+		font-weight: bold;
+
+		}
+		
+	h4 {
+	
+		font-size: 1em;
+
+		}
+		
+	p {
+	
+		margin-bottom: $paragraph_space;
+	
+		}
+		
+	small {
+	
+		color: #999;
+	
+		}
+		
+		
+		
+/* Links
+------------------------------------------------ */
+	
+	
+	a {
+	
+		text-decoration: none;
+		color: $accent_color;
+		border-bottom: 1px solid;
+	
+		&:hover {
+	
+			color: #fff;
+			background: $accent_color;
+		
+			}
+		
+		}
+	
+		
+/* Lists
+------------------------------------------------ */
+
+
+	ol, ul {
+	
+		padding-left: 50px;
+		margin: 0 0 $paragraph_space;
+	
+		}
+		
+	ol ol,
+	ol ul,
+	ul ul,
+	ul ol {
+	
+		margin: 0;
+	
+		}
+		
+	ul {
+	
+		list-style-type: square;
+	
+		}
+		
+		
+/* Block/Inline Elements
+------------------------------------------------ */
+		
+		
+	pre {
+	
+		margin: 0 0 $paragraph_space;
+		color: #efefef;
+		background: #838b95;
+		padding: 15px 5%;
+		margin-bottom: 20px;
+		overflow: auto;
+		border-radius: 5px;
+	
+		}
+	
+	pre::-webkit-scrollbar {
+		
+		height: 8px;
+		
+		}
+		
+	pre::-webkit-scrollbar-thumb:horizontal {
+	
+		@include border-radius(10px);
+		background-color: rgba(0,0,0,.2);
+		-webkit-background-clip: padding-box;
+				
+		}
+		
+	pre::-webkit-scrollbar-thumb:horizontal:hover {
+
+		background-color: rgba(0,0,0,.5);
+
+		}		
+		
+	img {
+	
+		max-width: 100%;
+		border: none;
+	
+		}
+		
+	hr {
+	
+		display: block;
+		border: none;
+		height: 1px;
+		width: 100%;
+		margin: $paragraph_space 0;
+		background: #ccc;
+	
+		}
+		
+	blockquote {
+	
+		padding-left: 5%;
+		border-left: 5px solid #efefef;
+		font-style: italic;
+		color: #666;
+		margin-bottom: $paragraph_space;
+	
+		}		
+		
+		
+/* Forms
+------------------------------------------------ */
+
+
+	label {
+	
+		float: left;
+		padding: 10px 0;
+		
+		em {
+		
+			float: left;
+			width: 150px;
+			font-style: normal;
+			
+			}
+			
+		}
+		
+	form br {
+	
+		clear: left;
+		
+		}
+		
+	fieldset {
+	
+		padding: 0 2.5%;
+		border: 1px solid #ccc;
+		margin: 1em 0;
+		border-radius: 5px;
+
+		input {
+		
+			float: left;
+			margin: 4px 10px 10px 0;
+			
+			}
+		
+		em {
+		
+			float: none;
+				
+			}
+		
+		}
+		
+		
+/* Inputs */
+
+
+	input[type="text"] {
+	
+		outline: none;
+		border: none;
+		border-bottom: 1px dashed #333;
+		font: normal 14px/18px Helvetica, Arial, sans-serif;
+	
+		&:focus {
+	
+			border-bottom: 1px solid #333;
+		
+			}
+		
+		}
+		
+
+/* Error */
+		
+		
+	.error em {
+	
+		color: #f00;
+	
+		}
+		
+	.error input[type="text"] {
+	
+		color: #f00;
+		border-color: #f00;
+	
+		}
+		
+		
+/* Actions
+------------------------------------------------ */
+
+
+	.actions {
+	
+		float: left;
+		list-style-type: none;
+		padding: 0;
+		
+		li {
+		
+			float: left;
+		
+			}
+			
+		a, input {
+		
+			@include appearance(none);
+			display: block;
+			font: normal 16px/16px Helvetica, Arial, sans-serif;
+			border: none;
+			color: #fff;
+			background: $accent_color;
+			padding: 10px 25px;
+			cursor: pointer;
+			@include border-radius(3px);
+		
+			}
+		
+		}
+		
+		
+/* Tabs
+------------------------------------------------ */
+		
+	
+	.tabs {
+	
+		float: left;
+		width: 100%;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		padding-bottom: 10px;
+		border-bottom: 1px solid $accent_color;
+		margin: $paragraph_space 0;
+	
+		li {
+		
+			float: left;
+			margin: 0 $paragraph_space 0 0;
+			
+			}
+	
+		a {
+		
+			display: block;
+			color: #999;
+			background: transparent;
+			font-weight: bold;
+			
+			}
+	
+		.selected a {
+		
+			color: $accent_color;
+			
+			}
+		
+		}
+
+		
+/* Tables
+------------------------------------------------ */
+		
+		
+	table {
+	
+		width: 100%;
+		border-collapse: collapse;
+		
+		}
+		
+	td {
+	
+		padding: 5px 10px;
+		border-top: 1px solid #ccc;
+	
+		}
+		
+	th {
+	
+		text-align: left;
+		padding: 5px 10px;
+
+		}
+		
+	table .month,
+	table .year,
+	table .cost {
+	
+		text-align: right;
+	
+		}
+		
+	tfoot {
+	
+		text-align: right;
+	
+		}
+		
+	tfoot td {
+	
+		padding: 15px 0;
+	
+		}
+		
+		
+/* Pricing
+------------------------------------------------ */
+		
+	
+	.total div {
+	
+		float: right;
+		margin: 0 0 10px 10px;
+		padding: 8px 5px;
+
+		}
+		
+	.total .option {
+	
+		color: #fff;
+		background: $accent_color;
+		padding: 8px 20px;
+		@include border-radius(5px);
+	
+		}
+		
+	.total em {
+	
+		font-size: 20px;
+		font-style: normal;
+	
+		}
+		
+	tr.selected {
+	
+		background: #e5f3ff;
+	
+		}
+		
+	#markup {
+	
+		text-align: right;
+	
+		}
+	
+		
+/* Exceptions
+------------------------------------------------ */
+
+
+	.resen {
+	
+		color: #f00;
+	
+		}
+		
+	.done {
+	
+		text-decoration: line-through;
+	
+		}
+		
+		
+/* Image
+------------------------------------------------ */
+
+
+	section img {
+	
+		display: block;
+		margin: $paragraph_space 0;
+		border: 1px solid #ccc;
+		
+		}
+
+	img.left {
+	
+		float: left;
+		clear: left;
+	
+		}
+		
+	img.right {
+	
+		float: right;
+		clear: right;
+		margin: 0 0 10px 10px;
+	
+		}
+		
+		
+/* Buttons
+------------------------------------------------ */
+
+
+	.button {
+				
+		padding: 5px 15px;
+		color: #fff;
+		background: #ccc;
+		@include border-radius(3px);
+		border: none;
+
+		}
+		

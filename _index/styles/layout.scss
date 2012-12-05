@@ -1,0 +1,132 @@
+/* Resen Documentation */
+
+
+	@import "library";
+
+
+/* Structural Containers
+------------------------------------------------ */
+
+	
+	body {
+		
+		background: #666 url('../images/bg-body.png');
+	
+		}
+		
+	#content {
+	
+		background: #fff;
+		width: $page_width;
+		max-width: $max_page_width;
+		padding: 50px 5%;
+		margin: $paragraph_space auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		@include border-radius(5px);
+		box-shadow: rgba(0,0,0,.3) 0 5px 30px;
+				
+		}
+		
+
+/* Footer
+------------------------------------------------ */
+		
+		
+	footer {
+	
+		width: $page_width;
+		max-width: $max_page_width;
+		padding: 10px 5% $paragraph_space;
+		margin: 0 auto;
+		font-size: 12px;
+		color: #ccc;
+		text-align: center;
+		
+		a {
+		
+			color: #fff;
+			background: transparent;
+			
+			}
+			
+		}
+
+			
+/* Header
+------------------------------------------------ */
+
+	
+	#logo {
+	
+		float: left;
+		width: 33px;
+		height: 40px;
+		margin: 0 20px 20px 0;
+		border: none;
+		@include notext;
+		@include border-radius(2px);
+		background: url('../images/logo.png');
+		@include image-2x('../images/logo2x.png', 100%, 100%);
+		
+		}
+		
+		
+/* Navigation */
+
+
+	nav {
+	
+		float: left;
+	
+		ul {
+		
+			float: left;
+			list-style-type: none;
+			padding: 0;
+			margin: 9px 0 0;
+			
+			}
+			
+		li {
+		
+			float: left;
+			margin: 0 20px 10px 0;
+			
+			}
+			
+		a {
+		
+			color: #999;
+			background: transparent;
+			
+			&:hover {
+		
+				color: #333;
+				background: transparent;
+				
+				}
+				
+			}
+		
+		}
+		
+	#page-benefits nav .benefits a,
+	#page-process nav .process a,
+	#page-pricing nav .pricing a {
+	
+		color: #333;
+	
+		}
+		
+		
+/* PDF Button
+------------------------------------------------ */
+		
+			
+	.pdf {
+	
+		float: right;
+		margin-top: 5px;
+	
+		}		

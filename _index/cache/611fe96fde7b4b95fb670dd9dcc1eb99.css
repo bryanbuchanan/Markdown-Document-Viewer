@@ -1,0 +1,27 @@
+/* compiled by scssphp v0.0.3 on Wed, 24 Oct 2012 19:33:11 -0700 (0.0099s) */
+
+/* Print Stylesheet */
+@media print {
+  body {
+    background: #fff; }
+
+  #content {
+    width: auto;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none; }
+
+  footer {
+    display: none; }
+
+  page {
+    display: block;
+    page-break-before: always; }
+
+  .pdf {
+    display: none; }
+
+  @page {
+    margin: 18pt; } }

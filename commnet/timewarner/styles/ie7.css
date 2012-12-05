@@ -1,0 +1,30 @@
+/* IE7 Exceptions */
+
+/* Wrapping
+-------------------------------------------------- */
+
+	
+	#billboard > div > div > strong {
+	
+		white-space: nowrap;
+		position: relative;
+		left: -186px;
+		
+		}
+		
+	.features > li {
+	
+		height: 200px;
+	
+		}
+
+
+/* Widths
+-------------------------------------------------- */
+
+
+	.aside .button {
+	
+		width: 200px;
+	
+		}

@@ -1,0 +1,66 @@
+/* Resen Documentation */
+
+
+/* Variables
+------------------------------------------------ */
+
+
+	$page_width: 75%;
+	$max_page_width: 800px;
+	$accent_color: #34a2ff;
+	$text_color: #333;
+	$paragraph_space: 20px;
+	
+	
+/* Mixins
+------------------------------------------------ */
+	
+	
+	@mixin border-radius($radius: 5px) {
+	
+		-webkit-border-radius: $radius;
+		-moz-border-radius: $radius;
+		-ms-border-radius: $radius;
+		-o-border-radius: $radius;
+		border-radius: $radius;
+		
+		}
+		
+	@mixin appearance($appearance: none) {
+	
+		-webkit-appearance: $appearance;
+		-moz-appearance: $appearance;
+		-o-appearance: $appearance;
+		appearance: $appearance;
+			
+		}
+		
+	@mixin linear-gradient($top, $bottom) {
+	
+		background: #005575;
+		background-image: -webkit-linear-gradient($top 0, $bottom 100%);
+		background-image: -moz-linear-gradient($top 0, $bottom 100%);
+		background-image: -o-linear-gradient($top 0, $bottom 100%);
+		background-image: linear-gradient($top 0, $bottom 100%);
+		
+		}
+		
+	@mixin image-2x($image, $width, $height) {
+	
+		@media (-webkit-min-device-pixel-ratio: 1.3) {
+			
+			background-image: url($image);
+			background-size: $width $height;
+			
+			}
+			
+		}
+		
+	@mixin notext {
+	
+		display: block;
+		text-indent: 100%;
+		overflow: hidden;
+		white-space: nowrap;	
+	
+		}	
