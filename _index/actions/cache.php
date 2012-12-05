@@ -18,7 +18,7 @@ $cache_folder = "../cache";
 ---------------------------------- */
 
 $host = str_replace(':443', '', $_SERVER['HTTP_HOST']);
-$css_path = "http://$host/_template/scss";
+$css_path = "http://$host/_index/scss";
 
 require "../library/scss.inc.php";
 $scss = new scssc();
@@ -48,7 +48,7 @@ fclose($styles);
 ---------------------------------- */
 
 require "../library/minify/minify.php";
-$js_path = "/_template/scripts";
+$js_path = "/_index/scripts";
 $minifyJS = new Minify(TYPE_JS);
 foreach($js_files as $file) $minifyJS->addFile("$js_path/$file");
 $scripts = fopen("$cache_folder/scripts.js", "w") or die("Can't open js file");

@@ -1,6 +1,6 @@
 <?
 
-$dev = false;
+$dev = true;
 
 // Get Content
 $uri = $_SERVER['REQUEST_URI'];
@@ -41,16 +41,16 @@ $content = Markdown($content);
 	<? if ($dev): ?>
 
 		<!-- Stylesheets: Development -->
-		<link href="/_template/scss/precedents.scss" rel="stylesheet">
-		<link href="/_template/scss/layout.scss" rel="stylesheet">
-		<link href="/_template/scss/content.scss" rel="stylesheet">
-		<link href="/_template/scss/mobile.scss" rel="stylesheet">
-		<link href="/_template/scss/print.scss" rel="stylesheet">
+		<link href="/_index/scss/precedents.scss" rel="stylesheet">
+		<link href="/_index/scss/layout.scss" rel="stylesheet">
+		<link href="/_index/scss/content.scss" rel="stylesheet">
+		<link href="/_index/scss/mobile.scss" rel="stylesheet">
+		<link href="/_index/scss/print.scss" rel="stylesheet">
 
 	<? else: ?>
 
 		<!-- Stylesheets: Production -->
-		<link href="/_template/cache/styles.css" rel="stylesheet">
+		<link href="/_index/cache/styles.css" rel="stylesheet">
 
 	<? endif ?>
 	
