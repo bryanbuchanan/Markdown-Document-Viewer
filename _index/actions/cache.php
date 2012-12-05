@@ -13,6 +13,7 @@ $js_files = array(
 );
 
 $cache_folder = "../cache";
+if (!is_dir($cache_folder)) mkdir($cache_folder);
 
 /* CSS
 ---------------------------------- */
