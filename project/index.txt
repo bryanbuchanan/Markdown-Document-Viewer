@@ -1,6 +1,6 @@
-# Comm Net Service Provider Mini-Sites
+# Internet Service Provider Mini-Sites
 
-The following serves as an outline for the construction of several pre-designed mini-sites ("The Project"), defines the scope of work to be performed, and serves as an agreement between Resen ("The Consultant") and Comm Net ("The Client").
+The following serves as an outline for the construction of several pre-designed mini-sites ("The Project"), defines the scope of work to be performed, and serves as an agreement between ________ ("The Consultant") and ________ ("The Client").
 
 ---
 
@@ -45,7 +45,7 @@ Each mini-site follows the same structure/page architecture and mostly identical
 
 ## 4. Compensation/Payment
 
-The total amount to be paid to The Consultant: **$1,630**
+The total amount to be paid to The Consultant: **$______**
 
 - Payments not paid within 2 weeks of receipt of bill are subject to a 15% late fee, compounded every 2 weeks.
 - Additional work that falls outside the scope of this project will be billed at $80/hr.
@@ -102,19 +102,19 @@ The following parties agree to to the terms of this document.
 
 ---
 
-The Consultant: Resen Corp.
+The Consultant: ______________________________________
 
 Sign: ______________________________________
 
 Date: ______________________________________
 
-Print: Bryan Buchanan
+Print: ______________________________________
 
-Title: President
+Title: ______________________________________
 
 ---
 
-The Client: Comm Net, Inc.
+The Client: ______________________________________
 
 Sign: ______________________________________
 
