@@ -17,7 +17,6 @@ else:
 	$content = "# Page Not Found\n\nSorry, this page doesn't exist.";
 endif;
 
-
 // Get Title
 preg_match("/^# (.+)$/im", $content, $title);
 $title = $title[1];
@@ -27,7 +26,6 @@ require "library/markdown.inc.php";
 $content = Markdown($content);
 
 ?>
-
 <!doctype html>
 <html>
 <head>

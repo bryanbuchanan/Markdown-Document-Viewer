@@ -15,6 +15,9 @@ RewriteRule ^.*$ - [L]
 
 # PAGE REWRITES --------------------------------------------
 
+# /scss/file.scss
+# RewriteRule ^scss/(.*)$ /_index/actions/scss.php/$1 [L,QSA]
+
 # /page
 RewriteRule ^(.*)$ /_index/index.php?page=$1 [L,QSA]
 
