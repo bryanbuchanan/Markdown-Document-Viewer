@@ -1,5 +1,29 @@
 <?
 
+/* Initial Setup
+------------------------------------------------------------ */
+
+if (!is_file("../.htaccess")):
+
+	// Get htaccess content from library
+	ob_start();
+	include "library/htaccess.txt";
+	$htaccess_content = ob_get_contents();
+	ob_end_clean();
+
+	// Create htaccess file
+	$htaccess_file = fopen("../.htaccess", "w") or die("Can't create .htaccess file");
+	fwrite($htaccess_file, $htaccess_content);
+	fclose($htaccess_file);
+	
+	// Forward to home folder
+	header("Location: /");
+	die();
+	
+endif;
+
+/* ------------------------------------------------------------ */
+
 $dev = true;
 
 // Get Content
