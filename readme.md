@@ -8,3 +8,9 @@
 3. Go to `http://PATH_TO_YOUR_SITE/_index` in your browser to complete the setup.
 4. Now you can view the documents in the `example` folder by going to `http://PATH_TO_YOUR_SITE/example`.
 5. Add as many folders with markdown documents as you want adjacent to `example`.
+
+## Features
+
+- Download as PDF
+- View as raw text
+- Responsive design, fits mobile phones
